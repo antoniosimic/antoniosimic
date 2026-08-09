@@ -1,16 +1,28 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**antoniosimic/antoniosimic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://raw.githubusercontent.com/antoniosimic/antoniosimic/main/assets/hero.svg" width="100%" />
 
-Here are some ideas to get you started:
+[`PORTFOLIO`](https://antoniosimic.site) · [`LINKEDIN`](https://www.linkedin.com/in/antonio-%C5%A0imi%C4%87-036109343/) · [`GITHUB`](https://github.com/antoniosimic) · [`EMAIL`](mailto:antonio.simic@fer.hr)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/antoniosimic/antoniosimic/main/assets/section-01-whoami.svg" width="100%" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/antoniosimic/antoniosimic/main/assets/section-02-system-map.svg" width="100%" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/antoniosimic/antoniosimic/main/assets/section-03-stack.svg" width="100%" />
+
+<br/><br/>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=antoniosimic&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=antoniosimic&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+
+</div>
