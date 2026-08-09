@@ -1,0 +1,89 @@
+<svg width="1000" height="710" viewBox="0 0 1000 710" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono', 'Space Mono', 'Courier New', monospace; fill: #f5f5f0; }
+      .num { font-size: 60px; font-weight: bold; fill: #ffffff; }
+      .label { font-size: 18px; letter-spacing: 4px; fill: #ffffff; }
+      .path { font-size: 13px; letter-spacing: 1px; fill: #8b8f98; }
+      .rule { stroke: #f5f5f0; stroke-opacity: 0.28; stroke-width: 1; }
+      .subhead { font-size: 14px; letter-spacing: 2px; fill: #f5f5f0; }
+      .subhead-dim { font-size: 13px; letter-spacing: 1px; fill: #8b8f98; }
+      .cat { font-size: 13px; letter-spacing: 3px; fill: #8b8f98; }
+      .node-title { font-size: 16px; fill: #ffffff; }
+      .node-sub { font-size: 11px; fill: #9a9ea6; }
+      .hub-title { font-size: 20px; font-weight: bold; fill: #ffffff; }
+      .hub-sub { font-size: 12px; fill: #9a9ea6; }
+      .footer { font-size: 12px; letter-spacing: 2px; fill: #8b8f98; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="710" fill="#0a0e14" />
+
+  <!-- section header -->
+  <text x="40" y="72" class="num">02</text>
+  <text x="125" y="62" class="label">SYSTEM MAP</text>
+  <line x1="300" y1="52" x2="850" y2="52" class="rule" />
+  <text x="960" y="57" text-anchor="end" class="path">~/02-ecosystem</text>
+
+  <!-- subheader -->
+  <text x="40" y="130" class="subhead">SYSTEM MAP — EVERYTHING FROM ONE PIPELINE</text>
+  <text x="960" y="130" text-anchor="end" class="subhead-dim">FIG. 01</text>
+  <line x1="40" y1="148" x2="960" y2="148" class="rule" />
+
+  <!-- category labels -->
+  <text x="514" y="163" text-anchor="middle" class="cat">MULTI-AGENT CORE</text>
+  <text x="164" y="270" text-anchor="middle" class="cat">SAFETY</text>
+  <text x="850" y="163" text-anchor="middle" class="cat">DATA LAYER</text>
+  <text x="848" y="270" text-anchor="middle" class="cat">INFRASTRUCTURE</text>
+  <text x="540" y="630" text-anchor="middle" class="cat">PROJECTS &amp; RESEARCH</text>
+
+  <!-- connecting lines (under boxes) -->
+  <line x1="391" y1="205" x2="501" y2="369" class="rule" />
+  <line x1="637" y1="205" x2="501" y2="369" class="rule" />
+  <line x1="855" y1="210" x2="501" y2="369" class="rule" />
+  <line x1="175" y1="310" x2="501" y2="369" class="rule" />
+  <line x1="848" y1="310" x2="501" y2="369" class="rule" stroke-dasharray="5,5" />
+  <line x1="119" y1="430" x2="501" y2="369" class="rule" stroke-dasharray="5,5" />
+  <line x1="863" y1="430" x2="501" y2="369" class="rule" stroke-dasharray="5,5" />
+  <line x1="420" y1="560" x2="501" y2="369" class="rule" />
+  <line x1="660" y1="560" x2="501" y2="369" class="rule" />
+
+  <!-- nodes -->
+  
+  <rect x="286.0" y="176.0" width="210" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="391" y="201" text-anchor="middle" class="node-title">root agent</text>
+  <text x="391" y="223" text-anchor="middle" class="node-sub">multi-agent · transfer guards</text>
+  <rect x="544.5" y="176.0" width="185" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="637" y="201" text-anchor="middle" class="node-title">memory bank</text>
+  <text x="637" y="223" text-anchor="middle" class="node-sub">Vertex AI · personalization</text>
+  <rect x="745.0" y="181.0" width="220" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="855" y="206" text-anchor="middle" class="node-title">rag engine</text>
+  <text x="855" y="228" text-anchor="middle" class="node-sub">AlloyDB · hybrid embeddings</text>
+  <rect x="62.5" y="281.0" width="225" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="175" y="306" text-anchor="middle" class="node-title">safety pipeline</text>
+  <text x="175" y="328" text-anchor="middle" class="node-sub">PI / DEX / HARM classifier</text>
+  <rect x="755.5" y="281.0" width="185" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="848" y="306" text-anchor="middle" class="node-title">mcp server</text>
+  <text x="848" y="328" text-anchor="middle" class="node-sub">custom tools · GCP</text>
+  <rect x="26.5" y="401.0" width="185" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="119" y="426" text-anchor="middle" class="node-title">ci/cd pipeline</text>
+  <text x="119" y="448" text-anchor="middle" class="node-sub">dev / test / prod</text>
+  <rect x="740.5" y="401.0" width="245" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="863" y="426" text-anchor="middle" class="node-title">whatsapp bridge</text>
+  <text x="863" y="448" text-anchor="middle" class="node-sub">webhook · Pub/Sub · 150k+ scale</text>
+  <rect x="327.5" y="531.0" width="185" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="420" y="556" text-anchor="middle" class="node-title">prepko</text>
+  <text x="420" y="578" text-anchor="middle" class="node-sub">ed-tech · 800+ users</text>
+  <rect x="562.5" y="531.0" width="195" height="58" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="660" y="556" text-anchor="middle" class="node-title">road network</text>
+  <text x="660" y="578" text-anchor="middle" class="node-sub">CV · 1st place hackathon</text>
+
+  <!-- center hub -->
+  
+  <rect x="386.0" y="337.0" width="230" height="64" fill="#0a0e14" stroke="#f5f5f0" stroke-opacity="0.55" stroke-width="1.2" />
+  <text x="501" y="363" text-anchor="middle" class="hub-title">ANTONIO.SYS</text>
+  <text x="501" y="389" text-anchor="middle" class="hub-sub">one-person AI build pipeline</text>
+
+  <line x1="40" y1="660" x2="960" y2="660" class="rule" />
+  <text x="960" y="678" text-anchor="end" class="footer">DASHED LINES — AUTOMATED / CI-CD FLOW</text>
+</svg>
