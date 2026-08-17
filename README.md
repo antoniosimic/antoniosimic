@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/antoniosimic/antoniosimic/main/assets/hero.svg" width="100%" />
 
-[`PORTFOLIO`](https://antoniosimic.site) · [`LINKEDIN`](https://www.linkedin.com/in/antonio-%C5%A0imi%C4%87-036109343/) · [`GITHUB`](https://github.com/antoniosimic) · [`EMAIL`](mailto:antonio.simic@fer.hr)
+[`PORTFOLIO`](https://antoniosimic.site) · [`LINKEDIN`](https://www.linkedin.com/in/antonio-%C5%A0imi%C4%87-036109343/) · [`EMAIL`](mailto:antonio.simic@fer.hr)
 
 </div>
 
